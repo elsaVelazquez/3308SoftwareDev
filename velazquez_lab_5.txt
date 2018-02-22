@@ -19,13 +19,28 @@ git commit -m "simple readme file elsa lab5"
 from Desktop clicked on file and "commit to master"
 
 5. Add and commit a few other files (anything you want) to the repository
+git add velazquez_lab_5.txt
+git add samplehtmlfile_lab5.html
+git add mydog.txt
+git push
+git push --set-upstream origin master
+git status
+git add . (too add them all at the same time)
+git commit - m "Test commit"
+git status
+
+
 
 
 6. Create a tag named v0.0.1
+git tag -a 1.0.0 -m "v.0.0"
+
 
 
 7. Push all changes and tags to your remote repository (note that tags require a special
 flag to be included in the push)
+git push origin 1.0.0
+
 8. Create and checkout a new branch named testing-new-files
 9. Add and commit a few more files to this branch
 10. Checkout the master branch
